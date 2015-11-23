@@ -11,7 +11,8 @@
   </head>
 
   <body>
-
+<script src="http://coinwidget.com/widget/coin.js"></script>
+<script src="http://coindonationwidget.com/widget/coin.js"></script>
     <header>
       <div class="container">
         <h1>colt05.github.io</h1>
@@ -28,8 +29,43 @@
       
       Please donate bitcoin!
       <p>BTC: 16HLrNKTFs2ykLQyqoPBzfC6EMFm7hFG3c</p>
+      <script>
+CoinWidgetCom.go({
+	wallet_address: "16HLrNKTFs2ykLQyqoPBzfC6EMFm7hFG3c"
+	, currency: "bitcoin"
+	, counter: "amount"
+	, alignment: "br"
+	, qrcode: true
+	, auto_show: false
+	, lbl_button: "Donate"
+	, lbl_address: "My Bitcoin Address:"
+	, lbl_count: "donations"
+	, lbl_amount: "BTC"
+});
+</script>
       <p>DOGE: DRcRhwKwbfSFrpaSkjbriGkE3pjMkuNoGZ</p>
+      	<script>
+	CoinWidgetCom.go({
+		/* make sure you update the wallet_address or you will not get your donations */
+		wallet_address: "DRcRhwKwbfSFrpaSkjbriGkE3pjMkuNoGZ"
+		, currency: "dogecoin"
+		, language: "en"
+		, lbl_amount: "DOGE"
+	});
+	</script>
+	
       <p>LTC: LQfGHCuxkpLgg6sWjVrC9Wx324AYVCYmKC</p>
+      	<script>
+	CoinWidgetCom.go({
+		/* make sure you update the wallet_address or you will not get your donations */
+		wallet_address: "LQfGHCuxkpLgg6sWjVrC9Wx324AYVCYmKC"
+		, currency: "litecoin"
+		, language: "en"
+		, lbl_amount: "LTC"
+	});
+	</script>
+	
+      <p>Widgets from CoinWidget, CoinDonationWidget</p>
     </div>
 
               <script type="text/javascript">
