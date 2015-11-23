@@ -1,3 +1,4 @@
 # colt05.github.io
 My website, I guess...
-# Testing!!!1one!1one!
+# Please donate bitcoin.
+CoinBase: 16HLrNKTFs2ykLQyqoPBzfC6EMFm7hFG3c
