@@ -1,4 +1,5 @@
 # colt05.github.io
 My website, I guess...
 # Please donate bitcoin.
-CoinBase: 16HLrNKTFs2ykLQyqoPBzfC6EMFm7hFG3c
+COINBASE SHUT DOWN MY ACCOUNT!
+New address: 1KYogczTzDR6UX8emeEF3J76omiLqZQUff
