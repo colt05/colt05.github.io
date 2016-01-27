@@ -18,6 +18,7 @@
         <script>
         while (true == true) {
           loadDoc()
+          sleep(1000)
         }
         function loadDoc() {
         var xhttp = new XMLHttpRequest();
@@ -26,9 +27,19 @@
           document.getElementById("amount").innerHTML = xhttp.responseText;
           }
         };
-  xhttp.open("GET", "https://scratch.mit.edu/statistics/data/daily/", true);
-  xhttp.send();
-}
+        xhttp.open("GET", "https://scratch.mit.edu/statistics/data/daily/", true);
+        xhttp.send();
+        }
+        function sleep(milliseconds) {
+        var start = new Date().getTime();
+        for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > milliseconds){
+          break;
+        }
+      }
+    }
+  
+
 </script>
         <section id="downloads">
           <a href="https://github.com/colt05/colt05.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
@@ -43,7 +54,7 @@
         Amount: 
         <p id="amount">ajax is broken</p>
       <p> wip </p>
-      <p>CREDITS: w3schools, scratch wiki</p>
+      <p>CREDITS: w3schools, scratch wiki, <a href="http://www.sitepoint.com/delay-sleep-pause-wait/">long url</a></p>
        </section>
     </div>
 
