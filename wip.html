@@ -20,7 +20,7 @@
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
-          document.getElementById("demo").innerHTML = xhttp.responseText;
+          document.getElementById("amount").innerHTML = xhttp.responseText;
           }
         };
   xhttp.open("GET", "https://scratch.mit.edu/statistics/data/daily/", true);
@@ -37,6 +37,8 @@
 
     <div class="container">
       <section id="main_content">
+        Amount: 
+        <p id="amount">ajax is broken</p>
       <p> wip </p>
       <p>CREDITS: w3schools, scratch wiki</p>
        </section>
