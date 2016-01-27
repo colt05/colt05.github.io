@@ -15,9 +15,22 @@
       <div class="container">
         <h1>colt05.github.io</h1>
         <h2>My website, I guess...</h2>
-
+        <script>
+        function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          document.getElementById("demo").innerHTML = xhttp.responseText;
+          }
+        };
+  xhttp.open("GET", "https://scratch.mit.edu/statistics/data/daily/", true);
+  xhttp.send();
+}
+</script>
         <section id="downloads">
           <a href="https://github.com/colt05/colt05.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        <!-- scripts -->
+        
         </section>
       </div>
     </header>
@@ -25,6 +38,7 @@
     <div class="container">
       <section id="main_content">
       <p> wip </p>
+      <p>CREDITS: w3schools, scratch wiki</p>
        </section>
     </div>
 
